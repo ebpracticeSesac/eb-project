@@ -1,0 +1,13 @@
+package com.soy.ebpractice;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class EbPracticeApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
