@@ -26,7 +26,8 @@ class MenuControllerTest {
     }
 
     @Test
-    public void findMenuCodeTest() {
+    
+    public void findMenuCodeTest() throws Exception{
         mockMvc.perform(get("/menus/4"))
                 .andExpect(status().isOk())
                 .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
