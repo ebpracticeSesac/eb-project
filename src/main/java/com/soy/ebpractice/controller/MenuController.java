@@ -22,7 +22,7 @@ public class MenuController {
         return "I'm alive";
     }
 
-    @GetMapping("/menu/{menuCode}")
+    @GetMapping("/menus/{menuCode}")
     public MenuDTO findMenuByMenuCode(@PathVariable("menuCode") int menuCode) {
         return menuService.findMenuByMenuCode(menuCode);
     }
