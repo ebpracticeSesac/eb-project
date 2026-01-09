@@ -1,6 +1,8 @@
 package com.soy.ebpractice.dto;
 
+import lombok.Data;
 
+@Data
 public class MenuDTO {
     private int menuCode;
 
